@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CartLab – Politik & Vilkår</title>
+  <link rel="icon" href="assets/julefavicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+    /* --- Layout til politik-side --- */
+    header.politik-header {
+      text-align: center;
+      padding: 8rem 2rem 6rem;
+      color: white;
+      background: 
+        linear-gradient(rgba(24, 52, 65, 0.7), rgba(24, 52, 65, 0.7)),
+        url('assets/baggrundsbillede.png');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+    }
+
+    header.politik-header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    header.politik-header p {
+      font-size: 1.2rem;
+      color: #e8f9e8;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    main {
+      display: flex;
+      flex-direction: row;
+      max-width: 1200px;
+      margin: 4rem auto;
+      gap: 2rem;
+      padding: 0 2rem;
+    }
+
+    /* --- Sidebar (venstre menu) --- */
+    nav {
+      flex: 1;
+      position: sticky;
+      top: 2rem;
+      align-self: flex-start;
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      border-radius: 20px;
+      padding: 1.5rem;
+      height: fit-content;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    nav h2 {
+      font-size: 1.2rem;
+      color: #183441;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav li {
+      margin-bottom: 0.8rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #183441;
+      font-weight: bold;
+      transition: color 0.2s ease;
+    }
+
+    nav a:hover {
+      color: #059e00;
+    }
+
+    /* --- Indhold (højre sektion) --- */
+    section {
+      flex: 3;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 20px;
+      padding: 2rem;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    section h2 {
+      color: #183441;
+      font-size: 1.8rem;
+      margin-top: 2rem;
+      margin-bottom: 0.8rem;
+      border-bottom: 2px solid #059e00;
+      display: inline-block;
+      padding-bottom: 0.3rem;
+    }
+
+    section p {
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      color: #2d3e45;
+    }
+
+    @media (max-width: 900px) {
+      main {
+        flex-direction: column;
+      }
+
+      nav {
+        position: relative;
+        top: 0;
+        width: 100%;
+      }
+
+      section {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔹 Header -->
+  <header class="politik-header">
+    <h1>Politikker & Vilkår</h1>
+    <p>Læs mere om vores retningslinjer, betingelser og kontaktinformation</p>
+  </header>
+
+  <!-- 🔹 Hovedindhold -->
+  <main>
+    <nav>
+      <h2>Hurtige links</h2>
+      <ul>
+        <li><a href="#retur">Retur- og Refusionspolitik</a></li>
+        <li><a href="#service">Servicevilkår</a></li>
+        <li><a href="#levering">Leveringspolitik</a></li>
+        <li><a href="#kontakt">Kontaktoplysninger</a></li>
+        <li><a href="#juridisk">Juridisk meddelelse</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <h2 id="retur">Retur- og Refusionspolitik</h2>
+      <p>Hos CartLab ønsker vi, at du er tilfreds med dit køb. Skulle du fortryde dit køb, har du 14 dages fortrydelsesret fra den dag, du modtager varen.</p>
+      <p>For at returnere et produkt skal det være i samme stand og emballage, som da du modtog det. Kontakt os på <strong>cartlabdk@gmail.com</strong> inden returnering, så vi kan registrere din sag.</p>
+      <p>Når vi har modtaget varen og godkendt returneringen, refunderes beløbet til det kort, der blev brugt ved købet – normalt inden for 5-10 hverdage. Du betaler selv for returfragt, medmindre varen er defekt eller fejlleveret.</p>
+
+      <h2 id="service">Servicevilkår</h2>
+      <p>Ved at handle hos CartLab.dk accepterer du vores handelsbetingelser. Alle produkter sælges som beskrevet på hjemmesiden, og vi tager forbehold for mindre variationer i farve, materiale eller udseende – især ved 3D-printede produkter.</p>
+      <p>Alle priser er angivet i DKK inkl. moms, medmindre andet fremgår. Betaling kan ske med de tilgængelige betalingsmetoder ved checkout.</p>
+      <p>CartLab påtager sig ikke ansvar for forsinkelser hos fragtfirmaer eller skader, der skyldes misbrug af produktet. Vi forbeholder os retten til at ændre priser, betingelser og produktudvalg uden forudgående varsel.</p>
+
+      <h2 id="levering">Leveringspolitik</h2>
+      <p>Vi sender vores produkter fra Danmark med anerkendte fragtfirmaer. Leveringstiden er normalt 2-5 hverdage efter bestilling, medmindre andet er angivet.</p>
+      <p>Alle ordrer modtager en bekræftelse pr. mail, når pakken er afsendt. Skulle leveringen blive forsinket, kontakter vi dig hurtigst muligt.</p>
+      <p>Vi leverer i hele Danmark (ekskl. Færøerne og Grønland). Hvis pakken ikke afhentes i tide og returneres til os, kan vi tilbyde gensendelse mod betaling af ny fragt.</p>
+
+      <h2 id="kontakt">Kontaktoplysninger</h2>
+      <p><strong>CartLab DK</strong><br>
+      E-mail: <a href="mailto:cartlabdk@gmail.com">cartlabdk@gmail.com</a><br>
+      Website: <a href="https://cartlab.dk" target="_blank">cartlab.dk</a><br>
+      Facebook: <a href="https://www.facebook.com/groups/1055473929884076" target="_blank">CartLab DK</a><br>
+      Adresse: 7430, Midtjylland</p>
+
+      <h2 id="juridisk">Juridisk meddelelse</h2>
+      <p>Alt indhold på cartlab.dk – herunder billeder, tekst og logoer – tilhører CartLab DK og må ikke kopieres eller bruges uden skriftlig tilladelse.</p>
+      <p>CartLab DK fraskriver sig ansvar for eventuelle fejl i priser, beskrivelser eller informationer på hjemmesiden. Vi bestræber os dog altid på at holde alt indhold korrekt og opdateret.</p>
+      <p>Ved tvister henvises til dansk lovgivning, og eventuelle sager afgøres ved en dansk domstol. Forbrugere kan klage via Nævnenes Hus på <a href="https://www.naevneneshus.dk" target="_blank">www.naevneneshus.dk</a>.</p>
+    </section>
+  </main>
+
+  <!-- 🔹 Footer (samme som resten af siden) -->
+  <footer>
+    <div class="footer-links">
+      <a href="#">Retur- og refusionspolitik</a>
+      <a href="#">Servicevilkår</a>
+      <a href="#">Leveringspolitik</a>
+      <a href="#">Kontaktoplysninger</a>
+      <a href="#">Juridisk meddelelse</a>
+    </div>
+    <p>© 2025 CartLab – Alle rettigheder forbeholdes</p>
+  </footer>
+
+</body>
+</html>
